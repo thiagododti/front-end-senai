@@ -1,0 +1,117 @@
+
+table tr td{
+    padding: 10px;
+}
+
+
+
+table{
+    border-collapse: collapse;
+    border-color: #DDDDDD;
+    font-family: arial;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+
+tr{
+    
+}
+
+
+
+td{
+    
+    border-left: white;
+    border-right: white;
+    border-color: #DDDDDD;
+    
+}
+
+td:nth-child(1){
+    font-size: 18px;
+    color: silver;
+    font-weight: bold;
+    width: 18px;
+}
+
+td:nth-child(2){
+    text-align: left;
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    width: 200px;
+}
+
+td:nth-child(3){
+    font-weight: bolder;
+    color: black;
+    font-size: 14px;
+}
+
+td:nth-child(2n+3){
+    background-color: #F7F7F7;
+}
+
+
+tr:nth-child(1){
+    font-size: 13px;
+    color: #999999;
+}
+
+
+
+tr:nth-child(5){
+    border-bottom: 2px solid #CCCCCC;
+}
+tr:nth-child(6){
+    border-top: 2px solid #CCCCCC;
+}
+
+tr:nth-child(17){
+    border-bottom: 2px solid #CCCCCC;
+}
+tr:nth-child(18){
+    border-top: 2px solid #CCCCCC;
+}
+
+td.tacalibertadores{
+    color: blue;
+}
+
+td.rebaixados{
+    color: red;
+}
+
+td.sulamericana{
+    color: orange;
+}
+
+td.libertadores{
+    color: aqua;
+}
+
+tr:nth-child(22){
+    display: flex;
+    justify-content: left;
+    
+}
+
+ul{
+    list-style: none;
+    font-size: 10px;
+    
+}
+ul li{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px 10px;
+    
+}
+
+li::before{
+    content: '■';
+    color: red;
+    
+}
+
