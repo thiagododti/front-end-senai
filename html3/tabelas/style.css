@@ -97,21 +97,41 @@ tr:nth-child(22){
     
 }
 
-ul{
-    list-style: none;
+.container{
+    display: flex;
+    width: 600px;
     font-size: 10px;
-    
-}
-ul li{
-    display: inline-block;
-    padding: 0px;
-    margin: 0px 10px;
-    
 }
 
-li::before{
+.li1{
+    margin: 0px 2px;
+}
+.li2{
+    margin: 0px 2px;
+}
+.li3{
+    margin: 0px 2px;
+}
+.li4{
+    margin: 0px 2px;
+}
+
+.li1::before{
     content: '■';
-    color: red;
-    
+    color: blue;    
 }
 
+.li2::before{
+    content: '■';
+    color: aqua;    
+}
+
+.li3::before{
+    content: '■';
+    color: orange;    
+}
+
+.li4::before{
+    content: '■';
+    color: red;    
+}
